@@ -8,6 +8,8 @@ verify_ssl = true
 [packages]
 django = "*"
 djangorestframework = "*"
+django-rest-framework = "*"
+django-filter = "*"
 
 [requires]
 python_version = "3.8"
