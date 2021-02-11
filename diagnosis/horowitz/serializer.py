@@ -1,6 +1,6 @@
 from rest_framework import serializers
 
-from horowitz.models import Symptoms, BoreliaEvents, HealthCondition
+from diagnosis.horowitz.models import Symptoms, BoreliaEvents, HealthCondition
 
 
 class SymptomsSerializer(serializers.ModelSerializer):
