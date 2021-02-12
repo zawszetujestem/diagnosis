@@ -17,7 +17,7 @@ from django.contrib import admin
 from django.urls import path, include
 from rest_framework import routers
 
-from diagnosis.horowitz.views import *
+from diagnosis.horowitz import *
 
 router = routers.DefaultRouter()
 router.register('symptoms', SymptomsView, basename='symptoms')
